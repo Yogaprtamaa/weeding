@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Undangan Pernikahan Syraj & Jasmine</title>
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menikah.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.coundown.js"></script>
+    <link rel="icon" type="image/png" href="image/parrot.gif" />
+    <script>
+      function initMap() {
+        var smaTriguna = { lat: -6.3076244, lng: 106.7566751 };
+    
+        var map = new google.maps.Map(document.querySelector(".section-map"), {
+          zoom: 15,
+          center: smaTriguna
+        });
+    
+        var marker = new google.maps.Marker({
+          position: smaTriguna,
+          map: map,
+          title: "SMA Triguna Ciputat"
+        });
+      }
+    </script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        const audio = document.getElementById("background-music");
+        audio.muted = false; // Mengaktifkan suara
+        audio.play().catch(error => {
+          console.log("Autoplay diblokir, pengguna harus memulai secara manual.");
+        });
+      });
+    </script>
+    
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+
+  </head>
+
+  <body>
+    <button onclick="playMusic()">▶ Play</button>
+
+<audio id="background-music">
+  <source src="https://rr1---sn-npoeenle.googlevideo.com/videoplayback?expire=1740059247&ei=D962Z_aWLPXd1d8PguK3mQg&ip=136.158.151.252&id=o-ADMMiSyDrTbP1jns19Yvuaj_Tud1XzM8jodU7WOV3Y9Z&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&bui=AUWDL3zrl26al_XfpTtwwyEHYgkfeVgYQiUX3gyin2VsbEjjdiqJkFlu7N-qWYhHp2JuGEGUzfJpYYNm&spc=RjZbSbTeBbFO3VNYifLH_VodSLH8o9SpGlnoM7OxIFlj2QJ8o8zLMQJcnEj4SV3XOQ&vprv=1&svpuc=1&mime=video%2Fmp4&ns=ssvByD1ne7Canx9p79V_I1AQ&rqh=1&gir=yes&clen=3428469&ratebypass=yes&dur=174.033&lmt=1730923515262700&fexp=24350590,24350737,24350827,24350961,24350977,24350979,24351082,24351130,24351132,24351172,51326932,51331020&c=MWEB&sefc=1&txp=5538434&n=n8ZhpptXjp0omw&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgX7sdE9i1GW9Ha6XfRYTMd9YF3cZxhLq9BZL8ho80z5ECIFCPLVTj719wMuUQILVpeHgSSAkyiJriq8gapTWC18QJ&title=wedding%20nasheed%20-%20muhammad%20al%20muqit%20(easy%20lyrics)&rm=sn-jvhja5g3-hoae77s,sn-hoas7z&rrc=79,104&req_id=e8a7c7c6861ba3ee&cmsv=e&rms=nxu,au&redirect_counter=2&cms_redirect=yes&ipbypass=yes&met=1740045687,&mh=8A&mip=101.255.109.76&mm=30&mn=sn-npoeenle&ms=nxu&mt=1740044817&mv=u&mvi=1&pl=24&lsparams=ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=AGluJ3MwRgIhANop-fOgEyG-e-MIP4e3jiaq5PfDKIebAwko1VwfB6V8AiEAjz1LTjPEHLiIsQyWOvVTkgP7OS6liruXrJGPYBzQr9A%3D" type="audio/mp3">
+  Browser Anda tidak mendukung tag audio.
+</audio>
+
+    
+    
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="image/parrot.gif" alt="Party Parrot Gif" />
+      </div>
+    </div>
+    <!-- End Preloader-->
+
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#Waktu">
+                  Waktu
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#lokasi">
+                  Lokasi
+                </a>
+              </div>
+              
+              <div class="navbar-item">
+                <a class="navbar-item" href="#tentang-sherly-daeng">
+                  Tentang Syraj & Jasmine
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#rsvp">
+                  RSVP
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="subtitle">Undangan Pernikahan</h1>
+            <h2 class="title">Syraj & Jasmine</h2>
+            <h4 class="subtitle tempatwaktu">
+              
+                Sabtu, 24 Februari 2025 
+                </br>
+                SMA Triguna Utama, Cirendeu
+                </br>
+                Kota Tanggerang Selatan
+              
+            </h4>
+          </div>
+
+          <!-- Start Countdown -->       
+          <div>
+            <ul id="hitungmundur" >
+              <li><span class="days">00</span><p class="days_text">Hari</p></li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span><p class="hours_text">Jam</p></li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span><p class="minutes_text">Menit</p></li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span><p class="seconds_text">Detik</p></li>
+            </ul>
+            <div class="spasi">
+            </div>
+            <script type="text/javascript">
+              var now = new Date();
+              var day = now.getDate();
+              var month = now.getMonth() + 1;
+              var year = now.getFullYear() + 1;
+          
+              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+              var harih = '03/21/2020 17:00:00';
+
+              $('#hitungmundur').countdown({
+                date: harih, // TODO Date format: 07/27/2017 17:00:00
+                offset: +2, // TODO Your Timezone Offset
+                day: 'Hari',
+                days: 'Hari'
+              }, function () {
+                alert('Done!');
+              });
+            </script>  
+          </div>
+          <!-- End Countdown -->
+        </div>
+        <!-- End Hero Content-->
+
+
+
+
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#Waktu">Waktu</a>
+                  </li>
+                  <li>
+                    <a href="#lokasi">Lokasi</a>
+                  </li>
+                  <li>
+                    <a href="#tentang-sherly-daeng">Tentang Syraj & Jasmine</a>
+                  </li>
+
+                  <li>
+                    <a href="#rsvp">RSVP</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+
+      
+      <!-- Begin regular-section-->
+      <div class="section-light regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
+        
+        <p class="bodytext" data-aos="fade-in" data-aos-easing="linear">
+          Assalamu'alaikum Warahmatullahi Wabarakatuh.
+          <br />
+          Dengan memohon rahmat dan ridha Allah swt, 
+          <br />
+          kami bermaksud mengundang Bapak/Ibu/Saudara/Saudari pada acara pernikahan kami
+        </p>
+        <div data-aos="fade-in" data-aos-easing="linear">
+          <div class="nama-lengkap" >
+            Jasmine Aurelia Putri
+          </div>
+          Putri kedua dari Bapak E. Suminta dan Ibu Sarce G. Mandey
+            <div class="ampersand">&</div>
+            <div class="nama-lengkap">
+           Sraj
+            </div>
+            Putra kedua dari Bapak H. Daeng Nurjamal dan Ibu R. Riris Resmiyati
+          </div>
+        </div>
+       
+      <!-- End regular-section-->    
+            <!-- Begin Waktu Section -->
+            <div class="section-dark" id="Waktu">
+              <div class="container">
+                <div class="column is-12 regular-section">
+                  <h1 class="title has-text-centered section-title">Waktu</h1>
+                </div>
+                <div class="columns is-multiline">
+                  <div
+                    class="column is-4 has-vertically-aligned-content"
+                    data-aos="fade-right"
+                  >
+                  
+                    <p class="is-larger has-text-centered">
+                        <div class="waktu tanggal-hari has-text-centered">Sabtu</div> 
+                        <div class="waktu tanggal-angka has-text-centered">26</div>
+                        <div class="waktu tanggal-bulan has-text-centered">Februari 2025</div>
+                    </p>
+                  
+                  </div>
+                  <div
+                    class="column is-4 has-vertically-aligned-content"
+                    data-aos="fade-in" data-aos-easing="linear"
+                  >
+                  
+                    <p class="waktu is-larger has-text-centered">
+                      Akad Nikah:
+                      <br>
+                      <strong>08.00 WIB</strong>
+                    </p>
+                  
+                  </div>
+
+                  <div
+                    class="column is-4 has-vertically-aligned-content"
+                    data-aos="fade-left">
+                    
+                    <h1 class="waktu is-larger has-text-centered">
+                      Resepsi:
+                      <br>
+                      <strong>10.00 WIB</strong>
+                    </h1>
+                    
+                    
+                  </div>
+
+                </div>
+              </div>
+            </div>
+      <!-- End Waktu Content -->
+
+            <!-- Begin Lokasi Section -->
+            <div class="section-light" id="lokasi" data-aos="fade-in" data-aos-easing="linear" >
+              <div class="container">
+                <div class="column is-12 regular-section">
+                  <h1 class="title has-text-centered section-title">Lokasi</h1>
+                  <p class="tempat is-larger has-text-centered">
+                    <strong>SMA Triguna Utama</strong>
+                    <br>
+                    Jl. Ir H. Juanda No.12 
+                    <br>
+                    Kec. Ciputat Timur,Tanggerang Selatan, Jawa Barat
+                    <br>
+                  </p>
+                </div>
+                <div class="section-map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31724.138172175753!2d106.73199770570038!3d-6.326947894396023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69efd9a4efdf23%3A0x4e1351667f222c55!2sSMA%2C%20SMK%20TRIGUNA%20CIPUTAT!5e0!3m2!1sid!2sid!4v1739592718469!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div class="has-text-centered">
+                  <a href="https://www.google.com/maps/place/SMA,+SMK+TRIGUNA+CIPUTAT/@-6.3076244,106.7541002,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69efd9a4efdf23:0x4e1351667f222c55!8m2!3d-6.3076244!4d106.7566751!16s%2Fg%2F11bcf1r_r7?hl=en&entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D" class="button btn-arah" data-aos="fade-right">
+                    <i class="far fa-directions"></i>
+                    &nbsp;&nbsp;Petunjuk Arah
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="column is-12 regular-section">
+                <h1 class="title has-text-centered section-title">Al-Quran</h1>
+                <p class="tempat is-larger has-text-centered">
+                  <strong>Surah Ar Rum Ayat 21</strong>
+                  <br>
+                  وَمِنْ ءَايَٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ
+                  <br>
+                  Artinya: "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu istri-istri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir."
+                  <br>
+                </p>
+              </div>
+      <!-- End Lokasi Content -->
+
+
+      
+
+      <!-- Begin Foto -->
+      <div class="section-dark foto-foto" id="foto">
+        <div class="container">
+          <div            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12">
+              <h1 class="title has-text-centered section-title">Foto-foto</h1>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=10');"
+                ></figure>
+              </a>              
+              </a>              
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=10');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=20');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=30');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=40');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://drive.google.com/file/d/1s6cz1OcZXzzemLKcmIk0xjkUhwCwgqJF/view?usp=sharing');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=60');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=70');"
+                ></figure>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Work Content -->
+       
+      <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Kolom Logo dan Deskripsi -->
+                <div class="col-md-4">
+                    <h5><i class="fa fa-road"></i> ACME CO INC.</h5>
+                    <p>Your trusted partner for innovative solutions.</p>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                <i class="fa fa-facebook fa-lg"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                                <i class="fa fa-twitter fa-lg"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <i class="fa fa-github fa-lg"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                <i class="fa fa-instagram fa-lg"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!-- Kolom Quick Links -->
+                 <!-- Begin Footer -->
+    <div class="footer">
+      <div class="container">
+        <p class="has-vertically-align">Yoga Pratama</p>
+        <a href="https://bulma.io" class="has-vertically-align">
+          <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma">
+        </a>
+        <a href="https://www.netlify.com">
+          <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg"/>
+        </a>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menikah.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
