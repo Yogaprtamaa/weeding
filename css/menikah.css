@@ -18,7 +18,20 @@ html {
 .header-wrapper {
   padding-bottom: 30px;
 }
+.video
+{
+  height: 500px;
+  width: 100vw;
 
+}
+
+.prewedd
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
 .navbar-item {
   line-height: 38px;
   font-weight: 600;
