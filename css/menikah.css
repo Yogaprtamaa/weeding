@@ -18,20 +18,7 @@ html {
 .header-wrapper {
   padding-bottom: 30px;
 }
-.video
-{
-  height: 500px;
-  width: 100vw;
 
-}
-
-.prewedd
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
 .navbar-item {
   line-height: 38px;
   font-weight: 600;
@@ -51,7 +38,7 @@ html {
 
 
 .hero {
-  background-image: url("https://i.pinimg.com/474x/3b/ca/09/3bca09e014c0b587ae6cbbd06af2f461.jpg0");
+  background-image: url("https://i.pinimg.com/474x/3b/ca/09/3bca09e014c0b587ae6cbbd06af2f461.jpg");
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -306,7 +293,7 @@ html {
   text-transform: uppercase;
   font-size: 1.5rem;
   letter-spacing: 0px;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .nama-lengkap {
@@ -318,6 +305,20 @@ html {
   line-height: 3.7rem;
 }
 
+.video
+{
+  height: 500px;
+  width: 100vw;
+
+}
+
+.prewedd
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
 .ampersand {
 font-size: 5rem;
 font-family: 'Rouge Script', sans-serif;
