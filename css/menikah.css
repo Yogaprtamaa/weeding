@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Rouge+Script");
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto");
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
 }
 
 html {
-  font-family: 'Raleway', Tahoma, sans-serif;
+  font-family: 'Popins', Tahoma, sans-serif;
   width: 100%;
   min-height: 100%;
 }
